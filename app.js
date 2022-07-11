@@ -1,11 +1,16 @@
-//using selectors inside the element
-// traversing the dom
+// 1. Using selectors inside the element
 
-const buttons = document.querySelectorAll(".question-btn")
 
-buttons.forEach(function(btn){
-    btn.addEventListener("click", function(e){
-        
-    })
-})
 
+
+
+
+// 2. Traversing The DOM
+// const buttons = document.querySelectorAll(".question-btn");
+
+// buttons.forEach(function (btn) {
+//   btn.addEventListener("click", function (e) {
+//     const question = e.currentTarget.parentElement.parentElement;
+//     question.classList.toggle("show-text");
+//   });
+// });
